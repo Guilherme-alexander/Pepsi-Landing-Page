@@ -50,11 +50,17 @@ header ul li a{
     font-weight:400;
     margin-left:40px;
     text-decoration:none;
+    transition:1s;
+}
+
+header ul li a:hover{
+    border-bottom:1px solid white;
 }
 
 .content{
     position:relative;
     width:100%;
+    margin-bottom:50px;
     display:flex;
     justify-content:space-between;
     align-items: center;
